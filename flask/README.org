@@ -1,3 +1,6 @@
-* Last Name:
-* First Name:
+* Last Name: Tsun
+* First Name: Peter
+
+Just type in flask run
+Enter a positive integer value to obtain a random integer
 

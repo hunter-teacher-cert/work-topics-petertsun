@@ -1,0 +1,23 @@
+<h1> Roulette </h1>
+
+<h2>
+	{% if wholeValue %}
+	The chosen Value is {{wholeValue}}
+	{% else %}
+	Enter the Maximum value, Then press SUBMIT
+	{% endif %}
+</h2>
+
+
+<form method="POST">
+Enter Maximum Whole Number:
+<input name="maxPositiveInteger">
+<button> SUBMIT</button>
+</form>
+
+<br>
+<hr>
+<br>
+<h3> This is session {{count}}</h3>
+
+<link rel="stylesheet" href="/static/style.css">
