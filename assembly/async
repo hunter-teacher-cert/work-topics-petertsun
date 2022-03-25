@@ -1,0 +1,34 @@
+00 INP
+01 STA 13
+02 INP
+03 STA 14
+04 LDA 13
+05 SUB 14
+06 BRP 10
+07 LDA 14
+08 OUT
+09 HLT
+10 LDA 13
+11 OUT
+12 HLT
+13 DAT 00
+14 DAT 00
+
+
+
+inp
+sta x
+inp
+sta y
+lda x
+sub y
+brp isPositive
+lda y
+out
+hlt
+isPositive LDA x
+out
+hlt
+x dat
+y dat
+
